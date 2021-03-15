@@ -64,6 +64,12 @@
   background-color: #212529 !important;
 }
 
+.grid-system {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+}
+
+
 // #convertToCelsiusBtn,
 // #convertToFahrenhietBtn {
 //   background-color: #292b2c;
