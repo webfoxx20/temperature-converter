@@ -60,4 +60,11 @@
 .not-active {
   background-color: #212529 !important;
 }
+
+.grid-system {
+  display: -ms-grid !important;
+  display: grid !important;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
 /*# sourceMappingURL=main.css.map */
