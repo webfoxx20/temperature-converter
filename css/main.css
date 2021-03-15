@@ -1,0 +1,63 @@
+.converter-section {
+  background-image: url("../image/pexels-eberhard-grossgasteiger-572897.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.converter-section::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+.converter-section .container {
+  z-index: 4;
+}
+
+.converter-section #answerTofahrenhiet,
+.converter-section #answerToCelcius,
+.converter-section #gif,
+.converter-section #result,
+.converter-section #celsiusToFahrenhiet {
+  display: none;
+}
+
+.error {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 6px;
+  color: #fff;
+}
+
+.convert-celsius {
+  background-color: #0275d8;
+  color: #fff;
+}
+
+.convert-celsius:hover {
+  color: #fff;
+}
+
+.convert-fahhrenhiet {
+  background-color: #212529;
+  color: #fff;
+}
+
+.convert-fahhrenhiet:hover {
+  color: #fff;
+}
+
+.active {
+  background-color: #0275d8 !important;
+}
+
+.not-active {
+  background-color: #212529 !important;
+}
+/*# sourceMappingURL=main.css.map */
